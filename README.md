@@ -1,84 +1,27 @@
-#### Latest Builds
+# Zombie Outbreak V 0.7.2
+Zombie Outbreak is a Zombie Surival RPG Framework, you will must survive and fight against hordes of zombies to ensure your survival.
 
-##### Latest AppVeyor build
+![](https://i.imgur.com/sE2NCpr.png)
 
-|Latest Build|
-|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/inf2kinljmp8a5ul?svg=true)](https://ci.appveyor.com/project/TomGrobbe/vmenu)|
+## Features
+- Synchronized zombies
+- Vehicles abandoned
+- Safe zones
+- Identity creation
+- Character creation
+- Inventory system
+- Loot system
 
---------
+## Documentation
+Take a look at [Wiki](https://github.com/Dislaik/zombieoutbreak/wiki)
 
+### Discord
+https://discord.gg/cejHPsgCam
 
-# vMenu
-vMenu is server sided menu for FiveM servers, including full\* permission support.
-
-
-\*(Some features do not have permissions support as they are either harmless or it'd just be silly to deny them. However, they will be disabled if you deny access to the submenu that they are a part of (eg: unlimited stamina in Player Options will be disabled if you deny `vMenu.PlayerOptions.Menu`.))
-
---------
-
-# Download & Installation & Permissions
-
-## Download
-
-Click [here](https://github.com/TomGrobbe/vMenu/releases) to go to the releases page and download it.
-
---------
-
-## Installation
-Please follow the instructions over at the [vMenu docs](https://docs.vespura.com/vmenu/installation)
-
-## Zap Hosting
-If you're using Zap Hosting, you may find that moving the `permissions.cfg` file to the same folder as your `server.cfg` file may not work correctly (it could get reset every time you restart your server).
-
-If this is the case, leave your `permissions.cfg` file here: `/resources/vMenu/config/permissions.cfg` and add the following to the very top of your server.cfg file: `exec resources/vMenu/config/permissions.cfg` (instead of `exec permissions.cfg`).
-
-You can also use ZAP Hosting's one-click installer for vMenu. Get a ZAP-Hosting server with a 10% lifetime discount [HERE](https://zap-hosting.com/vespura) and make sure to use `Vespura-a-3715` at checkout.
-
---------
-
-## Support
-If you like my work, please consider supporting me on [**Patreon**](https://www.patreon.com/vespura). I've put a _lot_ of my time and hard work into these and other projects.
-
---------
-
-## Trouble shooting & support
-Take a look at the docs first of all. I will ignore you if your question is answered on the docs or the forum topic.
-
-- [docs](https://docs.vespura.com/vmenu/)
-- [forum topic](https://vespura.com/vmenu)
-- [discord](https://vespura.com/discord)
-
-
---------
-
-## Permissions 
-Click [here](https://docs.vespura.com/vmenu/permissions-ref) for permissions information.
-
-## Configuration
-Click [here](https://docs.vespura.com/vmenu/configuration) for configuration options information.
-
-
---------
-
-
-## MenuAPI
-Starting from vMenu v2.1.0, vMenu will be using [MenuAPI (MAPI)](https://github.com/TomGrobbe/MenuAPI), a custom menu API designed specifically for vMenu by me.
-
-vMenu v2.0.0 and earlier was [using a modified version of NativeUI](https://github.com/TomGrobbe/NativeUI), originally by [Guad](https://github.com/Guad/NativeUI), but converted to FiveM by the CitizenFX Collectives and myself (updated/refactored).
-
-
---------
+### Support me
+[<a href="https://www.buymeacoffee.com/dislaik"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=dislaik&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>](https://www.buymeacoffee.com/dislaik)
 
 ## License
-**For an updated license, check the license.md file. That file will always overrule anything mentioned in the readme.md**
+Copyright © 2020 Matías N. Salas.
 
-
-Tom Grobbe - https://www.vespura.com/
-
-Copyright © 2017-2020
-
-----
-
-You can use and edit this code to your liking. However don't ever claim it to be your own code and always provide proper credit.
-I will, however, not help you if you want to modify my code.
+Zombie Outbreak Framework is a community project, you legal permission to copy, distribute and/or modify it only if you have forked this repository, If it's not a forked repo, then the release will be taken down by DMCA request.
