@@ -1,0 +1,277 @@
+2022/03/04-17:33:48.438087 2bac RocksDB version: 6.10.0
+2022/03/04-17:33:48.438151 2bac Git sha rocksdb_build_git_sha:@@GIT_SHA@@
+2022/03/04-17:33:48.438234 2bac Compile date Nov 22 2021
+2022/03/04-17:33:48.438600 2bac DB SUMMARY
+2022/03/04-17:33:48.439305 2bac CURRENT file:  CURRENT
+2022/03/04-17:33:48.439338 2bac IDENTITY file:  IDENTITY
+2022/03/04-17:33:48.439411 2bac MANIFEST file:  MANIFEST-000005 size: 216 Bytes
+2022/03/04-17:33:48.439426 2bac SST files in H:\FXServer\db\default dir, Total Num: 1, files: 000004.sst 
+2022/03/04-17:33:48.439437 2bac Write Ahead Log file in H:\FXServer\db\default: 000006.log size: 704 ; 
+2022/03/04-17:33:48.439452 2bac                         Options.error_if_exists: 0
+2022/03/04-17:33:48.439463 2bac                       Options.create_if_missing: 1
+2022/03/04-17:33:48.439564 2bac                         Options.paranoid_checks: 1
+2022/03/04-17:33:48.439578 2bac                                     Options.env: 000001095CF344F0
+2022/03/04-17:33:48.439583 2bac                                      Options.fs: Legacy File System
+2022/03/04-17:33:48.439587 2bac                                Options.info_log: 000001095D21E6D0
+2022/03/04-17:33:48.439592 2bac                Options.max_file_opening_threads: 16
+2022/03/04-17:33:48.439597 2bac                              Options.statistics: 0000000000000000
+2022/03/04-17:33:48.439601 2bac                               Options.use_fsync: 0
+2022/03/04-17:33:48.439605 2bac                       Options.max_log_file_size: 0
+2022/03/04-17:33:48.439609 2bac                  Options.max_manifest_file_size: 1073741824
+2022/03/04-17:33:48.439613 2bac                   Options.log_file_time_to_roll: 0
+2022/03/04-17:33:48.439617 2bac                       Options.keep_log_file_num: 10
+2022/03/04-17:33:48.439621 2bac                    Options.recycle_log_file_num: 0
+2022/03/04-17:33:48.439626 2bac                         Options.allow_fallocate: 1
+2022/03/04-17:33:48.439630 2bac                        Options.allow_mmap_reads: 0
+2022/03/04-17:33:48.439635 2bac                       Options.allow_mmap_writes: 0
+2022/03/04-17:33:48.439639 2bac                        Options.use_direct_reads: 0
+2022/03/04-17:33:48.439643 2bac                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/03/04-17:33:48.439647 2bac          Options.create_missing_column_families: 0
+2022/03/04-17:33:48.439651 2bac                              Options.db_log_dir: 
+2022/03/04-17:33:48.439655 2bac                                 Options.wal_dir: H:\FXServer\db\default
+2022/03/04-17:33:48.439659 2bac                Options.table_cache_numshardbits: 6
+2022/03/04-17:33:48.439664 2bac                      Options.max_subcompactions: 1
+2022/03/04-17:33:48.439669 2bac                         Options.WAL_ttl_seconds: 0
+2022/03/04-17:33:48.439673 2bac                       Options.WAL_size_limit_MB: 0
+2022/03/04-17:33:48.439677 2bac                        Options.max_write_batch_group_size_bytes: 1048576
+2022/03/04-17:33:48.439681 2bac             Options.manifest_preallocation_size: 4194304
+2022/03/04-17:33:48.439685 2bac                     Options.is_fd_close_on_exec: 1
+2022/03/04-17:33:48.439689 2bac                   Options.advise_random_on_open: 1
+2022/03/04-17:33:48.439693 2bac                    Options.db_write_buffer_size: 0
+2022/03/04-17:33:48.439698 2bac                    Options.write_buffer_manager: 000001095D0D7830
+2022/03/04-17:33:48.439702 2bac         Options.access_hint_on_compaction_start: 1
+2022/03/04-17:33:48.439707 2bac  Options.new_table_reader_for_compaction_inputs: 0
+2022/03/04-17:33:48.439711 2bac           Options.random_access_max_buffer_size: 1048576
+2022/03/04-17:33:48.439715 2bac                      Options.use_adaptive_mutex: 0
+2022/03/04-17:33:48.439718 2bac                            Options.rate_limiter: 0000000000000000
+2022/03/04-17:33:48.439723 2bac     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/03/04-17:33:48.439728 2bac                       Options.wal_recovery_mode: 2
+2022/03/04-17:33:48.439732 2bac                  Options.enable_thread_tracking: 0
+2022/03/04-17:33:48.439762 2bac                  Options.enable_pipelined_write: 0
+2022/03/04-17:33:48.439769 2bac                  Options.unordered_write: 0
+2022/03/04-17:33:48.439774 2bac         Options.allow_concurrent_memtable_write: 1
+2022/03/04-17:33:48.439778 2bac      Options.enable_write_thread_adaptive_yield: 1
+2022/03/04-17:33:48.439782 2bac             Options.write_thread_max_yield_usec: 100
+2022/03/04-17:33:48.439796 2bac            Options.write_thread_slow_yield_usec: 3
+2022/03/04-17:33:48.439802 2bac                               Options.row_cache: None
+2022/03/04-17:33:48.439806 2bac                              Options.wal_filter: None
+2022/03/04-17:33:48.439810 2bac             Options.avoid_flush_during_recovery: 0
+2022/03/04-17:33:48.439814 2bac             Options.allow_ingest_behind: 0
+2022/03/04-17:33:48.439818 2bac             Options.preserve_deletes: 0
+2022/03/04-17:33:48.439822 2bac             Options.two_write_queues: 0
+2022/03/04-17:33:48.439827 2bac             Options.manual_wal_flush: 0
+2022/03/04-17:33:48.439831 2bac             Options.atomic_flush: 0
+2022/03/04-17:33:48.439836 2bac             Options.avoid_unnecessary_blocking_io: 0
+2022/03/04-17:33:48.439840 2bac                 Options.persist_stats_to_disk: 0
+2022/03/04-17:33:48.439844 2bac                 Options.write_dbid_to_manifest: 0
+2022/03/04-17:33:48.439848 2bac                 Options.log_readahead_size: 0
+2022/03/04-17:33:48.439852 2bac                 Options.file_checksum_gen_factory: Unknown
+2022/03/04-17:33:48.439856 2bac                 Options.best_efforts_recovery: 0
+2022/03/04-17:33:48.439861 2bac             Options.max_background_jobs: 2
+2022/03/04-17:33:48.439866 2bac             Options.max_background_compactions: -1
+2022/03/04-17:33:48.439871 2bac             Options.avoid_flush_during_shutdown: 0
+2022/03/04-17:33:48.439875 2bac           Options.writable_file_max_buffer_size: 1048576
+2022/03/04-17:33:48.439879 2bac             Options.delayed_write_rate : 16777216
+2022/03/04-17:33:48.439883 2bac             Options.max_total_wal_size: 0
+2022/03/04-17:33:48.439887 2bac             Options.delete_obsolete_files_period_micros: 21600000000
+2022/03/04-17:33:48.439891 2bac                   Options.stats_dump_period_sec: 600
+2022/03/04-17:33:48.439896 2bac                 Options.stats_persist_period_sec: 600
+2022/03/04-17:33:48.439900 2bac                 Options.stats_history_buffer_size: 1048576
+2022/03/04-17:33:48.439905 2bac                          Options.max_open_files: -1
+2022/03/04-17:33:48.439909 2bac                          Options.bytes_per_sync: 0
+2022/03/04-17:33:48.439913 2bac                      Options.wal_bytes_per_sync: 0
+2022/03/04-17:33:48.439917 2bac                   Options.strict_bytes_per_sync: 0
+2022/03/04-17:33:48.439921 2bac       Options.compaction_readahead_size: 0
+2022/03/04-17:33:48.439925 2bac                  Options.max_background_flushes: -1
+2022/03/04-17:33:48.439929 2bac Compression algorithms supported:
+2022/03/04-17:33:48.439935 2bac 	kZSTD supported: 0
+2022/03/04-17:33:48.439939 2bac 	kSnappyCompression supported: 0
+2022/03/04-17:33:48.439944 2bac 	kBZip2Compression supported: 0
+2022/03/04-17:33:48.439948 2bac 	kZlibCompression supported: 1
+2022/03/04-17:33:48.439952 2bac 	kLZ4Compression supported: 1
+2022/03/04-17:33:48.439956 2bac 	kXpressCompression supported: 0
+2022/03/04-17:33:48.439960 2bac 	kLZ4HCCompression supported: 1
+2022/03/04-17:33:48.439965 2bac 	kZSTDNotFinalCompression supported: 0
+2022/03/04-17:33:48.439973 2bac Fast CRC32 supported: Not supported on x86
+2022/03/04-17:33:48.444490 2bac [db\version_set.cc:4515] Recovering from manifest file: H:\FXServer\db\default/MANIFEST-000005
+2022/03/04-17:33:48.446133 2bac [db\column_family.cc:579] --------------- Options for column family [default]:
+2022/03/04-17:33:48.446153 2bac               Options.comparator: leveldb.BytewiseComparator
+2022/03/04-17:33:48.446158 2bac           Options.merge_operator: None
+2022/03/04-17:33:48.446162 2bac        Options.compaction_filter: None
+2022/03/04-17:33:48.446196 2bac        Options.compaction_filter_factory: None
+2022/03/04-17:33:48.446203 2bac         Options.memtable_factory: SkipListFactory
+2022/03/04-17:33:48.446208 2bac            Options.table_factory: BlockBasedTable
+2022/03/04-17:33:48.446245 2bac            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000001095D02DB40)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000001095CEE7DC0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 4
+  enable_index_compression: 1
+  block_align: 0
+2022/03/04-17:33:48.446252 2bac        Options.write_buffer_size: 67108864
+2022/03/04-17:33:48.446257 2bac  Options.max_write_buffer_number: 2
+2022/03/04-17:33:48.446261 2bac          Options.compression: LZ4
+2022/03/04-17:33:48.446265 2bac                  Options.bottommost_compression: Disabled
+2022/03/04-17:33:48.446270 2bac       Options.prefix_extractor: nullptr
+2022/03/04-17:33:48.446274 2bac   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/03/04-17:33:48.446279 2bac             Options.num_levels: 7
+2022/03/04-17:33:48.446284 2bac        Options.min_write_buffer_number_to_merge: 1
+2022/03/04-17:33:48.446288 2bac     Options.max_write_buffer_number_to_maintain: 0
+2022/03/04-17:33:48.446292 2bac     Options.max_write_buffer_size_to_maintain: 0
+2022/03/04-17:33:48.446296 2bac            Options.bottommost_compression_opts.window_bits: -14
+2022/03/04-17:33:48.446300 2bac                  Options.bottommost_compression_opts.level: 32767
+2022/03/04-17:33:48.446304 2bac               Options.bottommost_compression_opts.strategy: 0
+2022/03/04-17:33:48.446309 2bac         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/03/04-17:33:48.446314 2bac         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/03/04-17:33:48.446319 2bac         Options.bottommost_compression_opts.parallel_threads: 1
+2022/03/04-17:33:48.446323 2bac                  Options.bottommost_compression_opts.enabled: false
+2022/03/04-17:33:48.446327 2bac            Options.compression_opts.window_bits: -14
+2022/03/04-17:33:48.446331 2bac                  Options.compression_opts.level: 32767
+2022/03/04-17:33:48.446335 2bac               Options.compression_opts.strategy: 0
+2022/03/04-17:33:48.446339 2bac         Options.compression_opts.max_dict_bytes: 0
+2022/03/04-17:33:48.446344 2bac         Options.compression_opts.zstd_max_train_bytes: 0
+2022/03/04-17:33:48.446349 2bac         Options.compression_opts.parallel_threads: 1
+2022/03/04-17:33:48.446353 2bac                  Options.compression_opts.enabled: false
+2022/03/04-17:33:48.446357 2bac      Options.level0_file_num_compaction_trigger: 4
+2022/03/04-17:33:48.446361 2bac          Options.level0_slowdown_writes_trigger: 20
+2022/03/04-17:33:48.446365 2bac              Options.level0_stop_writes_trigger: 36
+2022/03/04-17:33:48.446369 2bac                   Options.target_file_size_base: 67108864
+2022/03/04-17:33:48.446373 2bac             Options.target_file_size_multiplier: 1
+2022/03/04-17:33:48.446378 2bac                Options.max_bytes_for_level_base: 268435456
+2022/03/04-17:33:48.446383 2bac Options.level_compaction_dynamic_level_bytes: 0
+2022/03/04-17:33:48.446387 2bac          Options.max_bytes_for_level_multiplier: 10.000000
+2022/03/04-17:33:48.446393 2bac Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/03/04-17:33:48.446398 2bac Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/03/04-17:33:48.446402 2bac Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/03/04-17:33:48.446406 2bac Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/03/04-17:33:48.446410 2bac Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/03/04-17:33:48.446415 2bac Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/03/04-17:33:48.446419 2bac Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/03/04-17:33:48.446424 2bac       Options.max_sequential_skip_in_iterations: 8
+2022/03/04-17:33:48.446429 2bac                    Options.max_compaction_bytes: 1677721600
+2022/03/04-17:33:48.446433 2bac                        Options.arena_block_size: 8388608
+2022/03/04-17:33:48.446437 2bac   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/03/04-17:33:48.446441 2bac   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/03/04-17:33:48.446445 2bac       Options.rate_limit_delay_max_milliseconds: 100
+2022/03/04-17:33:48.446450 2bac                Options.disable_auto_compactions: 0
+2022/03/04-17:33:48.446456 2bac                        Options.compaction_style: kCompactionStyleLevel
+2022/03/04-17:33:48.446462 2bac                          Options.compaction_pri: kMinOverlappingRatio
+2022/03/04-17:33:48.446466 2bac Options.compaction_options_universal.size_ratio: 1
+2022/03/04-17:33:48.446471 2bac Options.compaction_options_universal.min_merge_width: 2
+2022/03/04-17:33:48.446475 2bac Options.compaction_options_universal.max_merge_width: 4294967295
+2022/03/04-17:33:48.446479 2bac Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/03/04-17:33:48.446483 2bac Options.compaction_options_universal.compression_size_percent: -1
+2022/03/04-17:33:48.446488 2bac Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/03/04-17:33:48.446493 2bac Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/03/04-17:33:48.446498 2bac Options.compaction_options_fifo.allow_compaction: 0
+2022/03/04-17:33:48.446506 2bac                   Options.table_properties_collectors: 
+2022/03/04-17:33:48.446510 2bac                   Options.inplace_update_support: 0
+2022/03/04-17:33:48.446514 2bac                 Options.inplace_update_num_locks: 10000
+2022/03/04-17:33:48.446518 2bac               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/03/04-17:33:48.446523 2bac               Options.memtable_whole_key_filtering: 0
+2022/03/04-17:33:48.446528 2bac   Options.memtable_huge_page_size: 0
+2022/03/04-17:33:48.446533 2bac                           Options.bloom_locality: 0
+2022/03/04-17:33:48.446538 2bac                    Options.max_successive_merges: 0
+2022/03/04-17:33:48.446542 2bac                Options.optimize_filters_for_hits: 0
+2022/03/04-17:33:48.446546 2bac                Options.paranoid_file_checks: 0
+2022/03/04-17:33:48.446550 2bac                Options.force_consistency_checks: 0
+2022/03/04-17:33:48.446554 2bac                Options.report_bg_io_stats: 0
+2022/03/04-17:33:48.446558 2bac                               Options.ttl: 2592000
+2022/03/04-17:33:48.446563 2bac          Options.periodic_compaction_seconds: 0
+2022/03/04-17:33:48.452227 2bac [db\version_set.cc:4672] Recovered from manifest file:H:\FXServer\db\default/MANIFEST-000005 succeeded,manifest_file_number is 5, next_file_number is 7, last_sequence is 9, log_number is 4,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 0
+2022/03/04-17:33:48.452265 2bac [db\version_set.cc:4681] Column family [default] (ID 0), log number is 4
+2022/03/04-17:33:48.453654 2bac EVENT_LOG_v1 {"time_micros": 1646411628453648, "job": 1, "event": "recovery_started", "log_files": [6]}
+2022/03/04-17:33:48.454012 2bac [db\db_impl\db_impl_open.cc:774] Recovering log #6 mode 2
+2022/03/04-17:33:48.457905 2bac EVENT_LOG_v1 {"time_micros": 1646411628457877, "cf_name": "default", "job": 1, "event": "table_file_creation", "file_number": 7, "file_size": 1053, "table_properties": {"data_size": 257, "index_size": 75, "index_partitions": 0, "top_level_index_size": 0, "index_key_is_user_key": 1, "index_value_is_delta_encoded": 1, "filter_size": 0, "raw_key_size": 548, "raw_average_key_size": 68, "raw_value_size": 44, "raw_average_value_size": 5, "num_data_blocks": 1, "num_entries": 8, "num_deletions": 0, "num_merge_operands": 0, "num_range_deletions": 0, "format_version": 0, "fixed_key_len": 0, "filter_policy": "", "column_family_name": "default", "column_family_id": 0, "comparator": "leveldb.BytewiseComparator", "merge_operator": "nullptr", "prefix_extractor_name": "nullptr", "property_collectors": "[]", "compression": "LZ4", "compression_options": "window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; ", "creation_time": 1646411628, "oldest_key_time": 3, "file_creation_time": 0}}
+2022/03/04-17:33:48.457974 2bac [db\version_set.cc:3920] Creating manifest 8
+2022/03/04-17:33:48.462769 2bac EVENT_LOG_v1 {"time_micros": 1646411628462764, "job": 1, "event": "recovery_finished"}
+2022/03/04-17:33:48.465106 2bac [file\delete_scheduler.cc:73] Deleted file H:\FXServer\db\default/000006.log immediately, rate_bytes_per_sec 0, total_trash_size 0 max_trash_db_ratio 0.250000
+2022/03/04-17:33:48.469344 2bac [db\db_impl\db_impl_open.cc:1576] SstFileManager instance 000001095CFD8050
+2022/03/04-17:33:48.469761 2bac DB pointer 000001095D2210C0
+2022/03/04-17:33:48.470329 4f80 [db\db_impl\db_impl.cc:854] ------- DUMPING STATS -------
+2022/03/04-17:33:48.470344 4f80 [db\db_impl\db_impl.cc:855] 
+** DB Stats **
+Uptime(secs): 0.0 total, 0.0 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 MB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      2/0    2.07 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+ Sum      2/0    2.07 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      2/0    2.07 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+ Sum      2/0    2.07 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   1.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+User      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.3      0.00              0.00         1    0.003       0      0
+Uptime(secs): 0.0 total, 0.0 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.04 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+
+** File Read Latency Histogram By Level [default] **
+2022/03/04-17:35:27.431743 1588 [db\db_impl\db_impl.cc:401] Shutdown: canceling all background work
+2022/03/04-17:35:27.433356 1588 [db\db_impl\db_impl.cc:577] Shutdown complete
